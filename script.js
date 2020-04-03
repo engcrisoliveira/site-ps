@@ -7,6 +7,11 @@ const textos = [
 
 var arrow = 0;
 
+function inicial(){
+  document.getElementById('falas').innerHTML = textos[0];
+  console.log('foi carregado');
+}
+
 function myFunction(refer){
   
 

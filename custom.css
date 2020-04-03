@@ -27,6 +27,23 @@ img{
     
     
 }
+button{
+    min-width: 70px;
+    min-height: 60px;
+    background-color: rgb(1, 4, 43);
+    border: 1px solid rgb(1, 4, 43);
+    position: relative;
+  
+}
+.icone{
+    background-color: aquamarine;
+    width: 70px;
+    height: 60px;
+    background-image: url('./seta-esquerda.png');
+}
+.material-icons.color { 
+    color: #ffffff; 
+}
 .tam {
     max-width: 500px;
     max-height: 400px;
@@ -37,4 +54,15 @@ img{
     min-width: 400px;
     min-height: 250px;
     
+}
+
+footer img {
+   
+    max-width: 325px;
+    max-height: 175px;
+    min-width: 75px;
+}
+.redeslogo {
+    position: absolute;
+    right:6px; bottom: 6px;
 }

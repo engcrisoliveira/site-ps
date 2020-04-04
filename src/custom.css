@@ -8,6 +8,15 @@
     position: absolute;
     left: 50px; top:120px;
 }
+.container-fluid .cma {
+    font-size:84px;
+    width: 400px;
+ }
+ .container-fluid .cma{
+  font-size: 24px;
+  width: 400px;
+  margin-top: 30px;
+ }
 .bg {
  background-color: rgb(22, 65, 158);
 }
@@ -40,14 +49,14 @@ button{
     color: #ffffff; 
 }
 .posbutton {
-    position: absolute;
-    bottom: 2px;
-    left: 2px;
+   position: absolute;
+   left: 1px;
+   bottom: 5px;
 }
 
 .tam {
-    max-width: 500px;
-    min-height: 250px;
+    max-width: 400px;
+    min-height: 150px;
     float: right;
 }
 .imgProjetos{

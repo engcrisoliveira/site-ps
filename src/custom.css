@@ -61,7 +61,7 @@ button{
 }
 .imgProjetos{
     max-width: 450px;
-    min-height: 250px;
+    max-height: 250px;
     
 }
 

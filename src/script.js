@@ -1,10 +1,4 @@
 
-
-
-$('#carouselExampleControls').on('slide.bs.carousel', function () {
-  myFunction('direita');
-})
-
 var relato = [
   {
     texto: "Ser um dos fundadores da Seed a Bit me traz um sentimento de eterna conexão com a empresa. Participei de todo processo de fundação e federação junto à galera massa da minha época. O primeiro contrato eu tava lá pra assinar. Nos eventos do MEJ eu tava lá levando a nossa bandeira e gritando, feito louco, que a Seed a Bit seria gigante um dia. Foram 2 anos intensos. Hoje, depois de 1 ano da minha saída percebi de longe que nossa Seed a Bit voou demais e isso se deve muito ao trabalho de todo mundo que passa por ela. É garra, determinação, foco. É vontade de ser Seed a Bit e de levar isso no coração pra sempre. Se essa oportunidade está aberta para você, agarre e aproveite da melhor forma possível! #voaseed 💙",
@@ -22,33 +16,31 @@ var relato = [
 
 ]
 
+$(document).ready(function(){
+  $("#carouselExampleControls").carousel('cycle');
+  inicial();
+})
 
-var arrow = 0;
-
-
-function myFunction(refer){
-  
-
-  if(refer=='direita'){
-    if(arrow==relato.length-1){
-      arrow = '0';
-    }else{
-      arrow++;
-    }
-    
-    document.getElementById('falas').innerHTML = relato[arrow].texto;
-    document.getElementById('ass').innerHTML = relato[arrow].ass;
-  }
-  if(refer=='esquerda'){
-    if(arrow==0){
-      arrow = relato.length-1;
-    }else{
-      arrow--;
-    }
-    
-    document.getElementById('falas').innerHTML = relato[arrow].texto;
-    document.getElementById('ass').innerHTML = relato[arrow].ass;
-  }
+function inicial(){
+  document.getElementById('falas').innerHTML = relato[0].texto;
+  document.getElementById('ass').innerHTML = relato[0].ass;
 }
+
+
+
+$('#carouselExampleControls').on('slid.bs.carousel', function (event) {
+  console.log(event.from);
+  document.getElementById('falas').innerHTML = relato[event.from].texto;
+  document.getElementById('ass').innerHTML = relato[event.from].ass;
+})
+
+$("#bt1").click(function(){
+  $("#carouselExampleControls").carousel("prev");
+});
+$("#bt2").click(function(){
+  $("#carouselExampleControls").carousel("next");
+});
+
+
 
 

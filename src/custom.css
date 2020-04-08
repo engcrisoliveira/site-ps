@@ -23,11 +23,10 @@
 .bg {
  background-color: rgb(22, 65, 158);
 }
-img{
-    background-color:rgb(80, 132, 235);
-}
+
 .imgQuem{
     text-align: center;
+    min-width: auto;
 }
 .colorfooter{
     background-color: rgb(22, 65, 158);
@@ -65,7 +64,7 @@ button{
 .imgProjetos{
     max-width: 450px;
     max-height: 250px;
-    
+    border: solid 2px black;
 }
 .alin {
 text-align: center;

@@ -19,6 +19,7 @@ var relato = [
 $(document).ready(function(){
   $("#carouselExampleControls").carousel('cycle');
   inicial();
+ 
 })
 
 function inicial(){
@@ -26,12 +27,36 @@ function inicial(){
   document.getElementById('ass').innerHTML = relato[0].ass;
 }
 
+var arrow = 0;
 
 
-$('#carouselExampleControls').on('slid.bs.carousel', function (event) {
-  console.log(event.from);
-  document.getElementById('falas').innerHTML = relato[event.from].texto;
-  document.getElementById('ass').innerHTML = relato[event.from].ass;
+$('#carouselExampleControls').on('slide.bs.carousel', function (event) {
+  
+if(event.direction=='left'){
+  if(arrow==relato.length-1){
+    arrow=0;
+  }else{
+    document.getElementById('falas').innerHTML = relato[arrow+1].texto;
+    document.getElementById('ass').innerHTML = relato[arrow+1].ass;
+    arrow++;
+  }
+
+    document.getElementById('falas').innerHTML = relato[arrow].texto;
+    document.getElementById('ass').innerHTML = relato[arrow].ass;
+  
+}else if(event.direction=='right'){
+  if(arrow==0){
+    arrow=relato.length-1;
+  }else{
+    document.getElementById('falas').innerHTML = relato[arrow-1].texto;
+    document.getElementById('ass').innerHTML = relato[arrow-1].ass;
+    arrow--;
+  }
+  document.getElementById('falas').innerHTML = relato[arrow].texto;
+  document.getElementById('ass').innerHTML = relato[arrow].ass;
+
+}
+  
 })
 
 $("#bt1").click(function(){

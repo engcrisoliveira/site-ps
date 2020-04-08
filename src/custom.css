@@ -1,0 +1,82 @@
+*{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.cma {
+    width: 30vw;
+    color: #ffffff;
+    position: absolute;
+    left: 50px; top:120px;
+}
+.container-fluid .cma h1{
+    font-size:50px;
+    width: 400px;
+ }
+ .container-fluid .cma p{
+  font-size: 24px;
+  width: 400px;
+  margin-top: 30px;
+ }
+.colorText {
+    color:rgb(1, 4, 43);
+}
+.bg {
+ background-color: rgb(22, 65, 158);
+}
+
+.imgQuem{
+    text-align: center;
+    min-width: auto;
+}
+.colorfooter{
+    background-color: rgb(22, 65, 158);
+}
+
+
+button{
+    min-width: 70px;
+    min-height: 60px;
+    background-color: rgb(1, 4, 43);
+    border: 1px solid rgb(1, 4, 43);
+    position: relative;
+  
+}
+.icone{
+    background-color: aquamarine;
+    width: 70px;
+    height: 60px;
+    background-image: url('./seta-esquerda.png');
+}
+.material-icons.color { 
+    color: #ffffff; 
+}
+.posbutton {
+   position: absolute;
+   left: 1px;
+   bottom: 5px;
+}
+
+.tam {
+    max-width: 400px;
+    min-height: 150px;
+    float: right;
+}
+.imgProjetos{
+    max-width: 450px;
+    max-height: 250px;
+    border: solid 2px black;
+}
+.alin {
+text-align: center;
+}
+
+footer img {
+   
+    max-width: 325px;
+    max-height: 175px;
+    min-width: 75px;
+}
+.redeslogo {
+    position: absolute;
+    right:6px; bottom: 6px;
+}

@@ -21,7 +21,11 @@
     color:rgb(1, 4, 43);
 }
 .bg {
- background-color: rgb(22, 65, 158);
+ background-color: rgb(212, 219, 233);
+}
+.bg2{
+    background-color:rgb(22, 65, 158) ;
+    
 }
 
 .imgQuem{
@@ -107,27 +111,9 @@ footer img {
 .exemplo-projetos-fig{
     padding-top: 10rem;
 }
-
-/*Teste de alinhamento*/
-html, body {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    margin: 0;
-    padding: 0;
-    background: url(https://www.placecage.com/c/500/500) no-repeat center;
-    background-size: cover;
+#faq{
+    background-color: rgb(212, 219, 233);
 }
-.centro {
-    margin: auto;
-    background-color: rgba(0, 0, 0, .5);
-    height: 100px;
-    width: 100%;
-    display: flex;
-}
-.conteudo {
-    height: 50px;
-    width: 50px;
-    background-color: red;
-    margin: auto;
+.fontes-datas{
+    font-size: 1.3rem;
 }

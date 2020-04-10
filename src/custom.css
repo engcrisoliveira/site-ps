@@ -1,5 +1,7 @@
 *{
     font-family: 'Titillium Web', sans-serif;
+    max-width: 100% !important;
+   
 }
 
 .cma {
@@ -121,4 +123,13 @@ footer img {
 .fontes-datas{
     font-size: 1.3rem;
 }
+.masthead {
+    
+    height: 25rem;
+    min-height: 25rem;
+    background-image: url(../assets/header.png);
+    background-size: cover;
+    background-position: initial;
+    background-repeat: no-repeat;
+  }
 

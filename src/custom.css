@@ -37,8 +37,10 @@
 .colorfooter{
     background-color: rgb(22, 65, 158);
 }
-
-
+#datas{
+   background-color: rgb(45, 45, 196);
+   border: none;
+}
 button{
     min-width: 70px;
     min-height: 60px;
@@ -95,7 +97,7 @@ footer img {
 }
 
 #block-insc{
-    color: black;
+    padding-top: 0.3rem;
 }
 #depo{
     margin-top: 6rem;
@@ -107,9 +109,8 @@ footer img {
 #projetos{
     margin-top: 6rem;
     padding-top: 4rem;
-    
     padding-left: 2rem;
-    
+    overflow-x: hidden;
 }
 .exemplo-projetos-fig{
     padding-top: 10rem;
@@ -122,6 +123,7 @@ footer img {
 }
 .fontes-datas{
     font-size: 1.3rem;
+    
 }
 .masthead {
     
@@ -131,5 +133,9 @@ footer img {
     background-size: cover;
     background-position: initial;
     background-repeat: no-repeat;
-  }
+}
+.container-fluid{
+    padding: 0rem;   
+}
+
 

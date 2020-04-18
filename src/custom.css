@@ -1,12 +1,14 @@
 *{
     font-family: 'Titillium Web', sans-serif;
+    max-width: 100% !important;
+   
 }
 
 .cma {
     width: 30vw;
     color: #ffffff;
     position: absolute;
-    left: 50px; top:120px;
+    left: 5rem; top:5rem;
 }
 .container-fluid .cma h1{
     font-size:50px;
@@ -21,7 +23,11 @@
     color:rgb(1, 4, 43);
 }
 .bg {
- background-color: rgb(22, 65, 158);
+ background-color: rgb(212, 219, 233);
+}
+.bg2{
+    background-color:rgb(22, 65, 158) ;
+    
 }
 
 .imgQuem{
@@ -31,8 +37,10 @@
 .colorfooter{
     background-color: rgb(22, 65, 158);
 }
-
-
+#datas{
+   background-color: rgb(45, 45, 196);
+   border: none;
+}
 button{
     min-width: 70px;
     min-height: 60px;
@@ -62,9 +70,9 @@ button{
     float: right;
 }
 .imgProjetos{
-    max-width: 450px;
-    max-height: 250px;
-    border: solid 2px black;
+    max-width: 28rem;
+    max-height: 15rem;
+   
 }
 .alin {
 text-align: center;
@@ -80,3 +88,54 @@ footer img {
     position: absolute;
     right:6px; bottom: 6px;
 }
+.fonts-class{
+  
+   font-size: 1.2rem;
+}
+.expo{
+    margin-top: 3rem;
+}
+
+#block-insc{
+    padding-top: 0.3rem;
+}
+#depo{
+    margin-top: 6rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 2rem;
+    background-color: rgb(212, 219, 233);
+}
+#projetos{
+    margin-top: 6rem;
+    padding-top: 4rem;
+    padding-left: 2rem;
+    overflow-x: hidden;
+}
+.exemplo-projetos-fig{
+    padding-top: 10rem;
+}
+#faq{
+    
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 2rem;
+}
+.fontes-datas{
+    font-size: 1.3rem;
+    
+}
+.masthead {
+    
+    height: 25rem;
+    min-height: 25rem;
+    background-image: url(../assets/header.png);
+    background-size: cover;
+    background-position: initial;
+    background-repeat: no-repeat;
+}
+.container-fluid{
+    padding: 0rem;   
+}
+
+

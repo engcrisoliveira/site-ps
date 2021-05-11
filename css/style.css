@@ -3,6 +3,12 @@
     max-width: 100% !important;   
 }
 
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+}
+
 .cma {
     width: 30vw;
     color: #ffffff;
@@ -110,6 +116,11 @@ footer img {
     margin-top: 3rem;
 }
 
+#col-md-7 {
+    padding-right: 0!important;
+    padding-left: 0!important;
+}
+
 #block-insc {
     padding-top: 0.3rem;
 }
@@ -133,7 +144,7 @@ footer img {
     padding-top: 10rem;
 }
 
-#faq {    
+#duvidas {    
     padding-top: 4rem;
     padding-bottom: 4rem;
     padding-left: 2rem;

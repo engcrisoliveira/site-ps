@@ -1,47 +1,54 @@
 *{
     font-family: 'Titillium Web', sans-serif;
-    max-width: 100% !important;
-   
+    max-width: 100% !important;   
 }
 
 .cma {
     width: 30vw;
     color: #ffffff;
     position: absolute;
-    left: 5rem; top:5rem;
+    left: 5rem; 
+    top:5rem;
 }
-.container-fluid .cma h1{
+
+.container-fluid .cma h1 {
     font-size:50px;
     width: 400px;
- }
- .container-fluid .cma p{
-  font-size: 24px;
-  width: 400px;
-  margin-top: 30px;
- }
+}
+
+.container-fluid .cma p {
+    font-size: 24px;
+    width: 400px;
+    margin-top: 30px;
+}
+
 .colorText {
     color:rgb(1, 4, 43);
 }
+
 .bg {
  background-color: rgb(212, 219, 233);
 }
-.bg2{
-    background-color:rgb(22, 65, 158) ;
-    
+
+.bg2 {
+    background-color:rgb(22, 65, 158);
 }
 
-.imgQuem{
+.imgQuem {
     text-align: center;
     min-width: auto;
 }
-.colorfooter{
+
+.colorfooter { 
     background-color: rgb(22, 65, 158);
 }
-#datas{
+
+#datas {
    background-color: rgb(45, 45, 196);
    border: none;
 }
-button{
+
+button {
     min-width: 70px;
     min-height: 60px;
     background-color: rgb(1, 4, 43);
@@ -49,15 +56,18 @@ button{
     position: relative;
   
 }
-.icone{
+
+.icone {
     background-color: aquamarine;
     width: 70px;
     height: 60px;
     background-image: url('./seta-esquerda.png');
 }
+
 .material-icons.color { 
     color: #ffffff; 
 }
+
 .posbutton {
    position: absolute;
    left: 1px;
@@ -69,64 +79,72 @@ button{
     min-height: 150px;
     float: right;
 }
-.imgProjetos{
+
+.imgProjetos {
     max-width: 28rem;
     max-height: 15rem;
    
 }
+
 .alin {
 text-align: center;
 }
 
 footer img {
-   
     max-width: 325px;
     max-height: 175px;
     min-width: 75px;
 }
+
 .redeslogo {
     position: absolute;
-    right:6px; bottom: 6px;
+    right:6px; 
+    bottom: 6px;
 }
-.fonts-class{
-  
+
+.fonts-class {
    font-size: 1.2rem;
 }
-.expo{
+
+.expo {
     margin-top: 3rem;
 }
 
-#block-insc{
+#block-insc {
     padding-top: 0.3rem;
 }
-#depo{
+
+#depo {
     margin-top: 6rem;
     padding-top: 4rem;
     padding-bottom: 4rem;
     padding-left: 2rem;
     background-color: rgb(212, 219, 233);
 }
-#projetos{
+
+#projetos {
     margin-top: 6rem;
     padding-top: 4rem;
     padding-left: 2rem;
     overflow-x: hidden;
 }
-.exemplo-projetos-fig{
+
+.exemplo-projetos-fig {
     padding-top: 10rem;
 }
-#faq{
-    
+
+#faq {    
     padding-top: 4rem;
     padding-bottom: 4rem;
     padding-left: 2rem;
 }
-.fontes-datas{
+
+.fontes-datas {
     font-size: 1.3rem;
     position: relative;
 }
+
 .masthead {
-    
     height: 25rem;
     min-height: 25rem;
     background-image: url(../assets/header.png);
@@ -134,8 +152,7 @@ footer img {
     background-position: initial;
     background-repeat: no-repeat;
 }
-.container-fluid{
+
+.container-fluid {
     padding: 0rem;   
 }
-
-
